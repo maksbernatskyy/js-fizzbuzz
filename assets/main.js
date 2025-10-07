@@ -21,7 +21,6 @@ const fizzBuzz = 'FizzBuzz'
 
 // Apro un ciclo 'for'
 for (let i = 1; i <= 100; i++){
-    console.log(i)
 
     if (i % 3 === 0 && i % 5 === 0){
         // Stampo 'FizzBuzz' per i numeri che sono multipli sia di 3 che di 5
@@ -34,6 +33,8 @@ for (let i = 1; i <= 100; i++){
     } else if (i % 5 === 0){
         // Stampo 'Buzz' per i numeri che sono multipli di 5
         console.log(buzz)
+    } else {
+        console.log(i)
     }
 }
 
