@@ -33,6 +33,7 @@ for (let i = 1; i <= 100; i++){
         // Stampo 'Buzz' per i numeri che sono multipli di 5
         console.log(buzz)
     } else {
+        // Stampo i numeri che non riguardano le caratteristiche sopra richieste
         console.log(i)
     }
 }
