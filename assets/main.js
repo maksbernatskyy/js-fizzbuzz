@@ -1,1 +1,8 @@
-console.log('Hello World')
+/*
+TOOLS:
+
+- let / const
+- for
+- if / else
+*/
+
